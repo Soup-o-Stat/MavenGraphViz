@@ -15,6 +15,10 @@ MavenGraphViz is a cmd tool for visualizing a dependency graph. Dependencies are
 ```
 python mavengraphviz.py junit:junit:4.12 output_file.mmd https://repo1.maven.org/maven2
 ```
+or
+```
+mavengraphviz.py junit:junit:4.12 output_file.mmd https://repo1.maven.org/maven2
+```
 
 ## Downloading Python packages
 You will most likely need to install libraries such as [requests](https://pypi.org/project/requests/) and [termcolor](https://pypi.org/project/termcolor/)
